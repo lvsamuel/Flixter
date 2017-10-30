@@ -1,4 +1,5 @@
 <script>
+  $(function() {
     $('.new-lesson-button').click(function( event ) {
       var lessonUrl = $( event.target).data('lesson-url');
       $('#newLessonForm').attr('action', lessonUrl);
